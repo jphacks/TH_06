@@ -46,7 +46,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\CameraMove.cs" />
-     <Compile Include="Assets\Panti.cs" />
      <Compile Include="Assets\Unit_Action.cs" />
      <None Include="Assets\Scifi Art Demo Pack\Demo Readme.txt" />
  <Reference Include="UnityEngine.UI">
