@@ -8,12 +8,11 @@ public class Unit_Action : MonoBehaviour {
     public float jump;
 
     public LayerMask layer;
-    public GameObject bulletP;
     //--------------------------------
     bool isGroundFit = false;
     bool isWallFit = false;
 
-
+    public GameObject pati;
 
 	// Use this for initialization
 	void Start () {
@@ -81,10 +80,12 @@ public class Unit_Action : MonoBehaviour {
     //----------------------------------
     void Attack()
     {
+        //クリックするとパンチする
         if(Input.GetButtonDown("Fire1"))
         {
-
+            Instantiate(pati, transform.position, transform.rotation);
         }
+
     }
 
     //----------------------------------
